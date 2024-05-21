@@ -2,7 +2,9 @@
 <div align="center">
     <img src="working-with-api-the-odin-project-assignment-demo-k-belltree-2024.gif" alt="Assignment result demo of Working with API of The Odin Project by Keiko S. 2024" width=60% height=^0%>
 </div>
+
 <br>
+
 This browser-based random Giphy Gif display was created to enhance understanding of working with APIs. For more details on this project, please refer to the lesson ["Working with APIs"](https://www.theodinproject.com/lessons/node-path-javascript-working-with-apis#fetching-data) on The Odin Project.
 
 ## Key Assignment Instructions
