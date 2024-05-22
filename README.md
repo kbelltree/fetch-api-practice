@@ -5,9 +5,15 @@
 
 <br>
 
+### First Phase: Understanding APIs with fetch and .then
 This browser-based random Giphy Gif display was created to enhance understanding of working with APIs. For more details on this project, please refer to the lesson ["Working with APIs"](https://www.theodinproject.com/lessons/node-path-javascript-working-with-apis#fetching-data) on The Odin Project.
 
+### Second Phase: Enhancing Code with async/await
+Transform the code from the first phase to use async and await for better readability and efficiency. For more details on these JavaScript features, refer to the lesson ["Async and Await"](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) on The Odin Project.
+
 ## Key Assignment Instructions
+
+### First Phase (Use fetch and .then): 
 
 - **API Key:**<br>
     Create an account and obtain a free API key from Giphy to display random Gifs in a browser.
@@ -31,8 +37,14 @@ This browser-based random Giphy Gif display was created to enhance understanding
 - **Search Function and .catch**<br>
     Add a search box and incorporate error handling with `.catch`. Note a specific case: when no image is found by the search term, Giphy returns a <u>status 200</u> with an <u>empty array</u>; this won't trigger `.catch` as an error. Adjust the implementation to handle this scenario as an error, displaying an appropriate message or image to users.
 
+### Second Phase (Refactor with async and await):
+
+- **async and await**
+    Refactor the existing `fetch` and `.then` functionality using `async` and `await` to make the asynchronous code more readable and easier to manage. This involves modifying function declarations to async and replacing .then with await for handling promises.
+    
 Note: <br>
-Because the API key should be kept private, it is omitted from the final repository. Instead, a separate module that retrieves the API key has been created.
+- Because the API key should be kept private, it is omitted from the final repository. Instead, a separate module that retrieves the API key has been created.
+- The second phase of the project has been developed in a separate branch named `asyncAwait`. 
 
 ## Built With
 
