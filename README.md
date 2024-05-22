@@ -43,8 +43,7 @@ Transform the code from the first phase to use async and await for better readab
     Refactor the existing `fetch` and `.then` functionality using `async` and `await` to make the asynchronous code more readable and easier to manage. This involves modifying function declarations to async and replacing .then with await for handling promises.
     
 Note: <br>
-- Because the API key should be kept private, it is omitted from the final repository. Instead, a separate module that retrieves the API key has been created.
-- The second phase of the project has been developed in a separate branch named `asyncAwait`. 
+Because the API key should be kept private, it is omitted from the final repository. Instead, a separate module that retrieves the API key has been created.
 
 ## Built With
 
